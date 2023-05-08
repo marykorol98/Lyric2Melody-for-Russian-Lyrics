@@ -1,6 +1,6 @@
 # Lyrics-based Melody and Harmony Generation for Russian Language
 
-This repository is devoted to the master's thesis 'Lyrics-based Melody and Harmony Generation for Russian Language'.
+This repository is devoted to the master's thesis 'Lyrics-based Melody and Harmony Generation for Russian Language' by Mariia Koroleva (ITMO University, supervisor: Petr Gladilin).
 
 The solution represents the modified ROC model*, adapted to the Russian language. 
 
