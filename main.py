@@ -443,16 +443,13 @@ def block_cnts(lyrics):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='none.')
     parser.add_argument('--lyrics_path', default='lyrics.txt')
-    parser.add_argument('--chord_path', default='chord.txt')
     parser.add_argument('--db_path', default='database/ROC.db')
     parser.add_argument('--debug', action='store_true', help='Output composition details')
     parser.add_argument('--conditioned', action='store_true')
-    parser.add_argument('--sentiment', action='store_true',
-                        help='If true, the tonality is automatically set by analyzing the sentiment of lyrics. If False, the tonality is major by default.')
+ 
     config = parser.parse_args()
 
     lyrics_path = config.lyrics_path
-    chord_path = config.chord_path
 
     # Загрузка базы мелодий
     db_path = config.db_path
